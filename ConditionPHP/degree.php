@@ -1,3 +1,8 @@
+<h3>Temperature measurement</h3>
+<form method ="POST">
+    <p>Degree: <input type="number" name="degree"/></p>
+    <input type = "submit" value="send">
+</form>
 <?php
 if(isset($_POST["degree"]))
 {

@@ -1,3 +1,8 @@
+<h3>Factorial</h3>
+<form method="POST">
+    <p><input type="number" name="number"></p>
+    <input type="submit" value="Quzu kesmek">
+</form>
 <?php
 if(isset($_POST['number']))
 {

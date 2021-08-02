@@ -1,3 +1,9 @@
+<h3>Division</h3>
+<form method="POST">
+    <p>N1: <input type="number" name="n1"></p>
+    <p>N2: <input type="number" name="n2"></p>
+    <input type="submit" value="send">
+</form>
 <?php
 if(isset($_POST['n1']) && isset($_POST['n2']))
 {

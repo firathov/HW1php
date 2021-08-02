@@ -1,5 +1,9 @@
-<?php
-if(isset($_POST["year"]))
+<h3>Centuries</h3>
+<form method = "POST">
+    <p>Year: <input type="number" name="year"></p>
+    <input type="submit" value="send">
+</form>
+<?php if(isset($_POST["year"]))
 {   $year = htmlentities($_POST["year"]);
     if(is_numeric($year))
     {

@@ -1,3 +1,7 @@
+<h3>Sum and Count</h3>
+<form method ="POST">
+    <p><input type = "submit" value="Skidshhh" name="sum">The sum of even numbers and their count in the range from 1 to 99</p>
+</form>
 <?php
 if(isset($_POST['sum']))
 {

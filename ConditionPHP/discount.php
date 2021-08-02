@@ -1,3 +1,8 @@
+<h3>Discount</h3>
+<form method="POST">
+    <p>Amount: <input type="number" name="amount"></p>
+    <input type="submit" value="send">
+</form>
 <?php
 if(isset($_POST['amount']))
 {

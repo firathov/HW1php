@@ -1,3 +1,10 @@
+<h3>The greatest One</h3>
+<form method="POST">
+    <p>N1: <input type="number" name="number1"></p>
+    <p>N2: <input type="number" name="number2"></p>
+    <p>N3: <input type="number" name="number3"></p>
+    <input type = "submit" value="send">
+</form>
 <?php
 if(isset($_POST["number1"]) && isset($_POST["number2"]) && isset($_POST["number3"]))
 {

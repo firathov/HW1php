@@ -1,3 +1,8 @@
+<h3>Week days</h3>
+<form method="POST">
+    <p>Day: <input type="number" name="day"></p>
+    <input type="submit" value="send">
+</form>
 <?php
 if(isset($_POST["day"]))
 {

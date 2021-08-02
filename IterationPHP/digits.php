@@ -1,3 +1,8 @@
+<h3>Sum of digits</h3>
+<form method="POST">
+    <p><input type="number" name="num"></p>
+    <input type="submit" value="Kesib dogramaq">
+</form>
 <?php
 if(isset($_POST['num']))
 {

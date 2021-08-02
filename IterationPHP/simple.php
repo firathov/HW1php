@@ -1,3 +1,8 @@
+<h3>Simple numbers</h3>
+<form method = "POST">
+    <p><input type="number" name="simple"></p>
+    <input type="submit" value="Qada almaq">
+</form>
 <?php
 if(isset($_POST['simple']))
 {

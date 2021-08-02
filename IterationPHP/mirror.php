@@ -1,3 +1,8 @@
+<h3>Mirrors</h3>
+<form method="POST">
+    <p><input type="number" name="numb"</p>
+    <input type="submit" value="Bash gedib fikir vermeyin">
+</form>
 <?php
 if(isset($_POST['numb']))
 {
